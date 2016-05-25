@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cheng\StudioProjects\XposedTest\libs\activation.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="C:\Users\cheng\StudioProjects\XposedTest\app\build\intermediates\pre-dexed\debug\activation-4f883891b4fb6965895f91572fee6dd687cb0501.jar" />
+    </item>
+    <item
+        jar="C:\Users\cheng\StudioProjects\XposedTest\libs\mail.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="C:\Users\cheng\StudioProjects\XposedTest\app\build\intermediates\pre-dexed\debug\mail-19165c7dbccec3dfdf22a02445f5cd08ae8c85b7.jar" />
+    </item>
+    <item
+        jar="C:\Users\cheng\StudioProjects\XposedTest\libs\additionnal.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="C:\Users\cheng\StudioProjects\XposedTest\app\build\intermediates\pre-dexed\debug\additionnal-348a8b42b8890370ffad4ed2f13fa52f6fea0718.jar" />
+    </item>
+
+</items>

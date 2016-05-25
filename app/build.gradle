@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.me.xposed"
+        minSdkVersion 15
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('C:/Users/cheng/StudioProjects/XposedTest/libs/activation.jar')
+    compile files('C:/Users/cheng/StudioProjects/XposedTest/libs/additionnal.jar')
+    compile files('C:/Users/cheng/StudioProjects/XposedTest/libs/mail.jar')
+    provided files('C:/Users/cheng/StudioProjects/XposedTest/libs/XposedBridgeApi-30.jar')
+}

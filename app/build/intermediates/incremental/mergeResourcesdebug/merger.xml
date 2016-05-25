@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res"><file name="ic_launcher" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_mail" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\layout\activity_mail.xml" qualifiers="" type="layout"/><file name="activity_main" path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\layout\activity_main.xml" qualifiers="" type="layout"/><file path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\values\strings.xml" qualifiers=""><string-array name="points">
+        <item>0</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>150</item>
+        <item>160</item>
+        <item>170</item>
+        <item>180</item>
+        <item>190</item>
+        <item>200</item>
+    </string-array><string-array name="cnt">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array><string name="app_name">XposedTest</string></file><file path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file><file path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file path="C:\Users\cheng\StudioProjects\XposedTest\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- API 14 theme customizations can go here. -->
+    </style></file></source><source path="C:\Users\cheng\StudioProjects\XposedTest\app\build\generated\res\rs\debug"/><source path="C:\Users\cheng\StudioProjects\XposedTest\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\cheng\StudioProjects\XposedTest\app\src\debug\res"/></dataSet><mergedItems/></merger>
