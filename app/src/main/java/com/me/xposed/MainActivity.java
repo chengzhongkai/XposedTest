@@ -20,11 +20,7 @@ import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
 
-//import de.robv.android.xposed.XSharedPreferences;
-
 public class MainActivity extends Activity  {
-
-
 
     private ArrayList<Tag> taglist = new ArrayList<>();
     TagLineAdapter adapter;
@@ -40,21 +36,6 @@ public class MainActivity extends Activity  {
 
         SharedPreferences prefs = this.getSharedPreferences(
                 "prefs", 0);
-
-        // Create an ArrayAdapter using the string array and a default spinner layout
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-
-                R.array.cnt, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-        ArrayAdapter<CharSequence> adapterP = ArrayAdapter.createFromResource(this,
-                R.array.points, android.R.layout.simple_spinner_item);
-        // Specify the layout to use when the list of choices appears
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-
-        LinearLayout list = (LinearLayout) this.findViewById(R.id.card_list);
 
         String strIds = Utility.input("ids");
         if (strIds.length() > 0) {
@@ -74,9 +55,5 @@ public class MainActivity extends Activity  {
         }
 
     }
-
-
-
-
 
 }

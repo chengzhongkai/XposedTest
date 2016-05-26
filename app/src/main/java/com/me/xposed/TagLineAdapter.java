@@ -1,5 +1,6 @@
 package com.me.xposed;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -67,6 +68,8 @@ public class TagLineAdapter extends BaseAdapter {
 
             @Override
             public void onClick(View v) {
+                Activity activity = (Activity)(v.getContext());
+                activity.setTitle(((Button)v).getText().toString());
                 int index = (int) v.getTag();
                 Utility.run("am force-stop jp.co.unisys.android.yamadamobile");
                 Utility.run("rm /data/data/jp.co.unisys.android.yamadamobile/shared_prefs/prefs.xml");
